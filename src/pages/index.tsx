@@ -1,11 +1,15 @@
-import type { NextPage } from "next";
+import CustomSEO from '@components/CustomSEO'
+import type { NextPage } from 'next'
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <p>Hello World</p>
-    </div>
-  );
-};
+    <>
+      <CustomSEO title="Hello World" />
+      <div>
+        <p>Hello World</p>
+      </div>
+    </>
+  )
+}
 
-export default Home;
+export default Home

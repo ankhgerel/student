@@ -9,5 +9,5 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  res.status(200).json({ data: 'Hello World', code: 200 })
+  res.status(404).json({ data: 'Not found', code: 404 })
 }
