@@ -38,7 +38,10 @@ jobs:
         run: yarn install --immutable
 
       - name: Run ESLint
-        run: yarn lint:fix
+        run: yarn lint
+
+      - name: Run prettier
+        run: yarn format
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
