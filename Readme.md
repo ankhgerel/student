@@ -2,7 +2,7 @@
 
 ## What's in the Template
 
-- [NextJS](https://nextjs.org) for website
+- [NextJS version 13](https://nextjs.org) for website
 - Static Types with [TypeScript](https://www.typescriptlang.org)
 - [Github Actions](https://github.com/features/actions) for build test and lint
 - Web app with [Next PWA](https://github.com/shadowwalker/next-pwa)
